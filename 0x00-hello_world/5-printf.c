@@ -3,6 +3,8 @@
 /**
  * print results with printf
  * to print string literals
+ *  
+ * main  Entry point
  *
  * The entry point to the program
  */
