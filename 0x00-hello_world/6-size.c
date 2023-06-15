@@ -11,10 +11,10 @@ int main(void)
 	long long int  num2;
 	char char1;
 	long int num3;
-	print("Size of int: %ul byte(s)",sizeof(num1));
-	print("Size of long long int: %ul byte(s)",sizeof(num2));
-	print("Size of char: %ul byte(s)",sizeof(char1));
-	print("Size of long int: %ul byte(s)",sizeof(num3));
+	printf("Size of int: %ul byte(s)\n",sizeof(num1));
+	printf("Size of long long int: %ul byte(s)\n",sizeof(num2));
+	printf("Size of char: %ul byte(s)\n",sizeof(char1));
+	printf("Size of long int: %ul byte(s)\n",sizeof(num3));
 	return (0);
 
 }
