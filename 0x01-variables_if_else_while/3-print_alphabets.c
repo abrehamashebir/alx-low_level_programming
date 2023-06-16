@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Prints the alphabetic
  *
- * Returrn: always success
+ * Return: Always (Success)
  */
 int main(void)
 {
