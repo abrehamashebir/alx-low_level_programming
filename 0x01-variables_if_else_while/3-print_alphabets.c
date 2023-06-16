@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main -print capital and small letter
+ * main - Prints the alphabetic
  *
  * Returrn: always success
  */
