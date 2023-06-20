@@ -2,7 +2,7 @@
 /**
  *  print_sign - print if character is sign
  *
- * @ return 1 or -1
+ * @n  return 1 or -1
  *  Returns: sign
  */
 int print_sign(int  num)
