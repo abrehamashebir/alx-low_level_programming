@@ -29,6 +29,6 @@ int main(void)
 		}
 	}
 	sum = sum1 + sum2 + sum3;
-       	printf("%d\n", sum);
-       	return (0);
+	printf("%d\n", sum);
+	return (0);
 }
