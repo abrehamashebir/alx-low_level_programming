@@ -28,7 +28,7 @@ int main(void)
 			sum3 += num;
 		}
 	}
-       	sum = sum1 + sum2 + sum3;
+	sum = sum1 + sum2 + sum3;
        	printf("%d\n", sum);
        	return (0);
 }
