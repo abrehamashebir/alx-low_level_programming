@@ -1,8 +1,8 @@
 #include "main.h"
 /**
+ * jack_bauer - a method to play jack
  *
- *
- *
+ * Return : returns value of the game
  */
 void jack_bauer(void)
 {
