@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
- *  print_sign - print if character is sign
- *
- * @num  return 1 or -1
- *  Returns: 1, -1 or 0
+ * print_sign - returns 1 if num is +, - if num < 0 0 otherwise
+ * @num: integer to be tested
+ * Return: 1, -1 or 0
  */
 int print_sign(int  num)
 {
