@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - check if a number is last digit
- *@num -parameter used to test function
+ *@num: parameter used to test function
  * Return: the last digit of a number
  */
 int print_last_digit(int num)
