@@ -1,11 +1,16 @@
-#include "main.h" 
-
+#include "main.h"
 /**
- * _abs - returns absolute value of num
- * @num: integer to be tested
- * Return: absolute value of a number
+ * _abs - return the absolute value of a given integer.
+ * @num: value use to find the absolute value.
+ *
+ *
+ * Return: the absolute value.
  */
 int _abs(int num)
 {
-	return (num < 0 ? -1 * num : num);
+	if (num < 0)
+		return (-num);
+	return (num);
 }
+
+
