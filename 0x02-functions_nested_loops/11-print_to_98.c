@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print numbers
- *
+ * print_to_9 - print numbers
+ *@n: a parameter to test function
  * Return: numbers in order
  */
 void print_to_98(int n)
@@ -13,6 +13,7 @@ void print_to_98(int n)
 		{
 			printf("%d", n);
 			printf(",");
+			printf(" ");
 			n--;
 		}
 	}
@@ -22,6 +23,7 @@ void print_to_98(int n)
 		{
 			printf("%d", n);
 			printf(",");
+			printf(" ");
 			n++;
 		}
 	}
