@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - prints lower case aphabets
+ * _islower - prints lower case aphabets
  *
  * Returns: lowercase
  */
