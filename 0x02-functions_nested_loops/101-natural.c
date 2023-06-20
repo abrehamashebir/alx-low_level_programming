@@ -13,13 +13,13 @@ int main(void)
 	int sum3 = 0;
 	int sum = 0;
 
-	for (num = 0 ; num < 10 ; num++)
+	for (num = 0 ; num < 1024 ; num++)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
 		{
 			sum1 += num;
 		}
-		else if ( num % 3 == 0)
+		else if (num % 3 == 0)
 		{
 			sum2 += num;
 		}
@@ -28,7 +28,7 @@ int main(void)
 			sum3 += num;
 		}
 	}
- sum = sum1 + sum2 + sum3;
- printf("%d\n", sum);
- return (0);
+       	sum = sum1 + sum2 + sum3;
+       	printf("%d\n", sum);
+       	return (0);
 }
