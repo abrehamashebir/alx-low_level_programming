@@ -1,51 +1,26 @@
-#include "main.h"
 #include <stdio.h>
+
 /**
- * print_to_9 - print numbers
- *@n: a parameter to test function
- * Return: numbers in order
+ * print_to_98 - prints every number from n to 98
+ * @n: starting number
  */
 void print_to_98(int n)
 {
-	if (n == 98)
+
+	int i;
+
+	if (n <= 98)
 	{
-		printf("%d", n);
-	}
-	else if (n > 98 )
-	{
-		 if (n != 98)
-		 {
-			 while ( n>=98)
-			 {
-		
-				printf("%d", n);
-				printf(",");
-				printf(" ");
-	         		n--;
-			}
-		}
-		 else
-		 {
-			 printf("%d", n);
-		 }
-	}
-	else
-	{
-		if (n !=98)
+		for (i = n; i < 98; i++)
 		{
-			
-			while ( n<=98)
-			{
-				printf("%d", n);
-				printf(",");
-				printf(" ");	
-				n++;
-			}		
-	       }
-	       	else
-	       	{
-		       	pintf("%d", n);
-	       	}
+			printf("%i, ", i);
+		}
+	} else
+	{
+		for (i = n; i > 98; i--)
+		{
+			printf("%i, ", i);
+		}
 	}
-	printf("\n");
+	printf("98\n");
 }
