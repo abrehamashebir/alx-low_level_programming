@@ -2,8 +2,8 @@
 /**
  *  print_sign - print if character is sign
  *
- * @n  return 1 or -1
- *  Returns: sign
+ * @num  return 1 or -1
+ *  Returns: 1, -1 or 0
  */
 int print_sign(int  num)
 {
