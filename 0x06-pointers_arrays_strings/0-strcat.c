@@ -4,7 +4,7 @@
  * _strcat - concantinate strings
  * @dest:first parameter
  * @src: second parameter
- * Return: no return value
+ * Return: returns concant values
  */
 char *_strcat(char *dest, char *src)
 {
