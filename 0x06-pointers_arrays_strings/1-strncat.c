@@ -1,26 +1,21 @@
 #include "main.h"
 
 /**
- * _strncat - print concat values
- * @dest: parameter that hold concat values
- * @src: variable to be concat
- * @n: number of characters
- * Return: return concat values
+ * _strncat - function to concatenate strings
+ * @dest : pointer
+ * @src : pointer
+ * @n : variable integer
+ * Return: Always 0.
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	int a, b;
 
-	a = 0;
-	while ( dest[a] != '\0')
-	{
-		a++;
-	}
+	for (a = 0; dest[a] != '\0'; a++)
+		;
 	for (b = 0; b < n && src[b] != '\0'; b++)
 	{
-		dest[a] = src[b];
-		a++;
+		dest[a + b] = src[b];
 	}
-	dest[a] = '\0';
 	return (dest);
 }
