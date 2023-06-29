@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper
+ * string_toupper - print uppercasee letters
  * @s: first parameter
  * Return: returns upper case value
  */
