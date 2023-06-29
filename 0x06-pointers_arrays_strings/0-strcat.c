@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - concantinate strings
+ * _strcat - concantinate strings
  * @dest:first parameter
  * @src: second parameter
  * Return: returns concant values
