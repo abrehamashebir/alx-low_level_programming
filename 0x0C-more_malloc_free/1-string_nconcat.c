@@ -3,23 +3,43 @@
 #include <stdlib.h>
 
 /**
- * _calloc - calloc function
- * @nmemb: number of elements
- * @size: size of bytes
- * Return: pointer or void
+ * string_nconcat - concats strings
+ * @s1: string one
+ * @s2: string two
+ * @n: n amount of bytes
+ * Return: return a char val
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *t;
-	unsigned int i;
+	unsigned int i, len1, len2;
+	char *s;
 
-	if (nmemb == 0 || size == 0)
-		return (NULL);
-	t = malloc(nmemb * size);
-	if (t == NULL)
-		return (NULL);
-	for (i = 0; i < nmemb * size; i++)
-		t[i] = 0;
+	if (s2 == NULL)
+		s2 = "";
+	if (s1 == NULL)
+		s1 = "";
 
-	return (t);
+	len1 = 0;
+	len2 = 0;
+	while (s2[len2] != '\0')
+		len2++;
+	while (s1[len1] != '\0')
+		len1++;
+
+	if (n >= len2)
+		n = len2;
+
+	s = malloc(sizeof(char) * n + len1 + 1);
+	if (s == NULL)
+		return (NULL);
+
+	for (i = 0; i < len1; i++)
+		s[i] = s1[i];
+
+	for (i = 0; i < n; i++)
+		s[i + len1] = s2[i];
+
+	s[i + len1] = '\0';
+
+	return (s);
 }
