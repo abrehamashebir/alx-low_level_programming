@@ -1,1 +1,1 @@
-priactic and execute if else statements in c
+deep dive into if else and while debugging
